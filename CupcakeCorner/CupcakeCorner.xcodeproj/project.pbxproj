@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED66A3B32CEF2A4800C5D059 /* Helpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED66A3B22CEF2A4800C5D059 /* Helpers.framework */; };
-		ED66A3B42CEF2A4800C5D059 /* Helpers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED66A3B22CEF2A4800C5D059 /* Helpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ED66A3B82CEF2A5100C5D059 /* Helpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED66A3B72CEF2A5100C5D059 /* Helpers.framework */; };
+		ED66A3B92CEF2A5100C5D059 /* Helpers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED66A3B72CEF2A5100C5D059 /* Helpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EDEEA11E2CEB15CF00911980 /* PBXContainerItemProxy */ = {
+		EDF1F29D2CEF1B88003F5DB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EDEEA1052CEB15CD00911980 /* Project object */;
+			containerPortal = EDF1F2842CEF1B86003F5DB2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EDEEA10C2CEB15CD00911980;
-			remoteInfo = Moonshot;
+			remoteGlobalIDString = EDF1F28B2CEF1B86003F5DB2;
+			remoteInfo = CupcakeCorner;
 		};
-		EDEEA1282CEB15CF00911980 /* PBXContainerItemProxy */ = {
+		EDF1F2A72CEF1B89003F5DB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EDEEA1052CEB15CD00911980 /* Project object */;
+			containerPortal = EDF1F2842CEF1B86003F5DB2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EDEEA10C2CEB15CD00911980;
-			remoteInfo = Moonshot;
+			remoteGlobalIDString = EDF1F28B2CEF1B86003F5DB2;
+			remoteInfo = CupcakeCorner;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		ED66A3B52CEF2A4800C5D059 /* Embed Frameworks */ = {
+		ED66A3BA2CEF2A5100C5D059 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				ED66A3B42CEF2A4800C5D059 /* Helpers.framework in Embed Frameworks */,
+				ED66A3B92CEF2A5100C5D059 /* Helpers.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,47 +43,47 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		ED66A3B22CEF2A4800C5D059 /* Helpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Helpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDEEA10D2CEB15CD00911980 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDEEA11D2CEB15CF00911980 /* MoonshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDEEA1272CEB15CF00911980 /* MoonshotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonshotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED66A3B72CEF2A5100C5D059 /* Helpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Helpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF1F28C2CEF1B86003F5DB2 /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF1F29C2CEF1B88003F5DB2 /* CupcakeCornerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CupcakeCornerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF1F2A62CEF1B89003F5DB2 /* CupcakeCornerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CupcakeCornerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EDEEA10F2CEB15CD00911980 /* Moonshot */ = {
+		EDF1F28E2CEF1B86003F5DB2 /* CupcakeCorner */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Moonshot;
+			path = CupcakeCorner;
 			sourceTree = "<group>";
 		};
-		EDEEA1202CEB15CF00911980 /* MoonshotTests */ = {
+		EDF1F29F2CEF1B88003F5DB2 /* CupcakeCornerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MoonshotTests;
+			path = CupcakeCornerTests;
 			sourceTree = "<group>";
 		};
-		EDEEA12A2CEB15CF00911980 /* MoonshotUITests */ = {
+		EDF1F2A92CEF1B89003F5DB2 /* CupcakeCornerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MoonshotUITests;
+			path = CupcakeCornerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EDEEA10A2CEB15CD00911980 /* Frameworks */ = {
+		EDF1F2892CEF1B86003F5DB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED66A3B32CEF2A4800C5D059 /* Helpers.framework in Frameworks */,
+				ED66A3B82CEF2A5100C5D059 /* Helpers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDEEA11A2CEB15CF00911980 /* Frameworks */ = {
+		EDF1F2992CEF1B88003F5DB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDEEA1242CEB15CF00911980 /* Frameworks */ = {
+		EDF1F2A32CEF1B89003F5DB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -93,31 +93,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ED66A3B12CEF2A4800C5D059 /* Frameworks */ = {
+		ED66A3B62CEF2A5100C5D059 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ED66A3B22CEF2A4800C5D059 /* Helpers.framework */,
+				ED66A3B72CEF2A5100C5D059 /* Helpers.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EDEEA1042CEB15CD00911980 = {
+		EDF1F2832CEF1B86003F5DB2 = {
 			isa = PBXGroup;
 			children = (
-				EDEEA10F2CEB15CD00911980 /* Moonshot */,
-				EDEEA1202CEB15CF00911980 /* MoonshotTests */,
-				EDEEA12A2CEB15CF00911980 /* MoonshotUITests */,
-				ED66A3B12CEF2A4800C5D059 /* Frameworks */,
-				EDEEA10E2CEB15CD00911980 /* Products */,
+				EDF1F28E2CEF1B86003F5DB2 /* CupcakeCorner */,
+				EDF1F29F2CEF1B88003F5DB2 /* CupcakeCornerTests */,
+				EDF1F2A92CEF1B89003F5DB2 /* CupcakeCornerUITests */,
+				ED66A3B62CEF2A5100C5D059 /* Frameworks */,
+				EDF1F28D2CEF1B86003F5DB2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EDEEA10E2CEB15CD00911980 /* Products */ = {
+		EDF1F28D2CEF1B86003F5DB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDEEA10D2CEB15CD00911980 /* Moonshot.app */,
-				EDEEA11D2CEB15CF00911980 /* MoonshotTests.xctest */,
-				EDEEA1272CEB15CF00911980 /* MoonshotUITests.xctest */,
+				EDF1F28C2CEF1B86003F5DB2 /* CupcakeCorner.app */,
+				EDF1F29C2CEF1B88003F5DB2 /* CupcakeCornerTests.xctest */,
+				EDF1F2A62CEF1B89003F5DB2 /* CupcakeCornerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,135 +125,135 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDEEA10C2CEB15CD00911980 /* Moonshot */ = {
+		EDF1F28B2CEF1B86003F5DB2 /* CupcakeCorner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDEEA1312CEB15CF00911980 /* Build configuration list for PBXNativeTarget "Moonshot" */;
+			buildConfigurationList = EDF1F2B02CEF1B89003F5DB2 /* Build configuration list for PBXNativeTarget "CupcakeCorner" */;
 			buildPhases = (
-				EDEEA1092CEB15CD00911980 /* Sources */,
-				EDEEA10A2CEB15CD00911980 /* Frameworks */,
-				EDEEA10B2CEB15CD00911980 /* Resources */,
-				ED66A3B52CEF2A4800C5D059 /* Embed Frameworks */,
+				EDF1F2882CEF1B86003F5DB2 /* Sources */,
+				EDF1F2892CEF1B86003F5DB2 /* Frameworks */,
+				EDF1F28A2CEF1B86003F5DB2 /* Resources */,
+				ED66A3BA2CEF2A5100C5D059 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				EDEEA10F2CEB15CD00911980 /* Moonshot */,
+				EDF1F28E2CEF1B86003F5DB2 /* CupcakeCorner */,
 			);
-			name = Moonshot;
+			name = CupcakeCorner;
 			packageProductDependencies = (
 			);
-			productName = Moonshot;
-			productReference = EDEEA10D2CEB15CD00911980 /* Moonshot.app */;
+			productName = CupcakeCorner;
+			productReference = EDF1F28C2CEF1B86003F5DB2 /* CupcakeCorner.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EDEEA11C2CEB15CF00911980 /* MoonshotTests */ = {
+		EDF1F29B2CEF1B88003F5DB2 /* CupcakeCornerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDEEA1342CEB15CF00911980 /* Build configuration list for PBXNativeTarget "MoonshotTests" */;
+			buildConfigurationList = EDF1F2B32CEF1B89003F5DB2 /* Build configuration list for PBXNativeTarget "CupcakeCornerTests" */;
 			buildPhases = (
-				EDEEA1192CEB15CF00911980 /* Sources */,
-				EDEEA11A2CEB15CF00911980 /* Frameworks */,
-				EDEEA11B2CEB15CF00911980 /* Resources */,
+				EDF1F2982CEF1B88003F5DB2 /* Sources */,
+				EDF1F2992CEF1B88003F5DB2 /* Frameworks */,
+				EDF1F29A2CEF1B88003F5DB2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EDEEA11F2CEB15CF00911980 /* PBXTargetDependency */,
+				EDF1F29E2CEF1B88003F5DB2 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				EDEEA1202CEB15CF00911980 /* MoonshotTests */,
+				EDF1F29F2CEF1B88003F5DB2 /* CupcakeCornerTests */,
 			);
-			name = MoonshotTests;
+			name = CupcakeCornerTests;
 			packageProductDependencies = (
 			);
-			productName = MoonshotTests;
-			productReference = EDEEA11D2CEB15CF00911980 /* MoonshotTests.xctest */;
+			productName = CupcakeCornerTests;
+			productReference = EDF1F29C2CEF1B88003F5DB2 /* CupcakeCornerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EDEEA1262CEB15CF00911980 /* MoonshotUITests */ = {
+		EDF1F2A52CEF1B89003F5DB2 /* CupcakeCornerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDEEA1372CEB15CF00911980 /* Build configuration list for PBXNativeTarget "MoonshotUITests" */;
+			buildConfigurationList = EDF1F2B62CEF1B89003F5DB2 /* Build configuration list for PBXNativeTarget "CupcakeCornerUITests" */;
 			buildPhases = (
-				EDEEA1232CEB15CF00911980 /* Sources */,
-				EDEEA1242CEB15CF00911980 /* Frameworks */,
-				EDEEA1252CEB15CF00911980 /* Resources */,
+				EDF1F2A22CEF1B89003F5DB2 /* Sources */,
+				EDF1F2A32CEF1B89003F5DB2 /* Frameworks */,
+				EDF1F2A42CEF1B89003F5DB2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EDEEA1292CEB15CF00911980 /* PBXTargetDependency */,
+				EDF1F2A82CEF1B89003F5DB2 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				EDEEA12A2CEB15CF00911980 /* MoonshotUITests */,
+				EDF1F2A92CEF1B89003F5DB2 /* CupcakeCornerUITests */,
 			);
-			name = MoonshotUITests;
+			name = CupcakeCornerUITests;
 			packageProductDependencies = (
 			);
-			productName = MoonshotUITests;
-			productReference = EDEEA1272CEB15CF00911980 /* MoonshotUITests.xctest */;
+			productName = CupcakeCornerUITests;
+			productReference = EDF1F2A62CEF1B89003F5DB2 /* CupcakeCornerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EDEEA1052CEB15CD00911980 /* Project object */ = {
+		EDF1F2842CEF1B86003F5DB2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					EDEEA10C2CEB15CD00911980 = {
+					EDF1F28B2CEF1B86003F5DB2 = {
 						CreatedOnToolsVersion = 16.1;
 					};
-					EDEEA11C2CEB15CF00911980 = {
+					EDF1F29B2CEF1B88003F5DB2 = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = EDEEA10C2CEB15CD00911980;
+						TestTargetID = EDF1F28B2CEF1B86003F5DB2;
 					};
-					EDEEA1262CEB15CF00911980 = {
+					EDF1F2A52CEF1B89003F5DB2 = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = EDEEA10C2CEB15CD00911980;
+						TestTargetID = EDF1F28B2CEF1B86003F5DB2;
 					};
 				};
 			};
-			buildConfigurationList = EDEEA1082CEB15CD00911980 /* Build configuration list for PBXProject "Moonshot" */;
+			buildConfigurationList = EDF1F2872CEF1B86003F5DB2 /* Build configuration list for PBXProject "CupcakeCorner" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = EDEEA1042CEB15CD00911980;
+			mainGroup = EDF1F2832CEF1B86003F5DB2;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = EDEEA10E2CEB15CD00911980 /* Products */;
+			productRefGroup = EDF1F28D2CEF1B86003F5DB2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDEEA10C2CEB15CD00911980 /* Moonshot */,
-				EDEEA11C2CEB15CF00911980 /* MoonshotTests */,
-				EDEEA1262CEB15CF00911980 /* MoonshotUITests */,
+				EDF1F28B2CEF1B86003F5DB2 /* CupcakeCorner */,
+				EDF1F29B2CEF1B88003F5DB2 /* CupcakeCornerTests */,
+				EDF1F2A52CEF1B89003F5DB2 /* CupcakeCornerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EDEEA10B2CEB15CD00911980 /* Resources */ = {
+		EDF1F28A2CEF1B86003F5DB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDEEA11B2CEB15CF00911980 /* Resources */ = {
+		EDF1F29A2CEF1B88003F5DB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDEEA1252CEB15CF00911980 /* Resources */ = {
+		EDF1F2A42CEF1B89003F5DB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,21 +263,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EDEEA1092CEB15CD00911980 /* Sources */ = {
+		EDF1F2882CEF1B86003F5DB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDEEA1192CEB15CF00911980 /* Sources */ = {
+		EDF1F2982CEF1B88003F5DB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDEEA1232CEB15CF00911980 /* Sources */ = {
+		EDF1F2A22CEF1B89003F5DB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,20 +287,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EDEEA11F2CEB15CF00911980 /* PBXTargetDependency */ = {
+		EDF1F29E2CEF1B88003F5DB2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EDEEA10C2CEB15CD00911980 /* Moonshot */;
-			targetProxy = EDEEA11E2CEB15CF00911980 /* PBXContainerItemProxy */;
+			target = EDF1F28B2CEF1B86003F5DB2 /* CupcakeCorner */;
+			targetProxy = EDF1F29D2CEF1B88003F5DB2 /* PBXContainerItemProxy */;
 		};
-		EDEEA1292CEB15CF00911980 /* PBXTargetDependency */ = {
+		EDF1F2A82CEF1B89003F5DB2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EDEEA10C2CEB15CD00911980 /* Moonshot */;
-			targetProxy = EDEEA1282CEB15CF00911980 /* PBXContainerItemProxy */;
+			target = EDF1F28B2CEF1B86003F5DB2 /* CupcakeCorner */;
+			targetProxy = EDF1F2A72CEF1B89003F5DB2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		EDEEA12F2CEB15CF00911980 /* Debug */ = {
+		EDF1F2AE2CEF1B89003F5DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,7 +363,7 @@
 			};
 			name = Debug;
 		};
-		EDEEA1302CEB15CF00911980 /* Release */ = {
+		EDF1F2AF2CEF1B89003F5DB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -419,14 +419,14 @@
 			};
 			name = Release;
 		};
-		EDEEA1322CEB15CF00911980 /* Debug */ = {
+		EDF1F2B12CEF1B89003F5DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Moonshot/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
 				DEVELOPMENT_TEAM = F45YXDH2VQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -440,7 +440,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Moonshot;
+				PRODUCT_BUNDLE_IDENTIFIER = pallab.maiti.CupcakeCorner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -448,14 +448,14 @@
 			};
 			name = Debug;
 		};
-		EDEEA1332CEB15CF00911980 /* Release */ = {
+		EDF1F2B22CEF1B89003F5DB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Moonshot/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
 				DEVELOPMENT_TEAM = F45YXDH2VQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -469,7 +469,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Moonshot;
+				PRODUCT_BUNDLE_IDENTIFIER = pallab.maiti.CupcakeCorner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -477,7 +477,7 @@
 			};
 			name = Release;
 		};
-		EDEEA1352CEB15CF00911980 /* Debug */ = {
+		EDF1F2B42CEF1B89003F5DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,16 +487,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MoonshotTests;
+				PRODUCT_BUNDLE_IDENTIFIER = pallab.maiti.CupcakeCornerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moonshot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moonshot";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CupcakeCorner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CupcakeCorner";
 			};
 			name = Debug;
 		};
-		EDEEA1362CEB15CF00911980 /* Release */ = {
+		EDF1F2B52CEF1B89003F5DB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,16 +506,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MoonshotTests;
+				PRODUCT_BUNDLE_IDENTIFIER = pallab.maiti.CupcakeCornerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moonshot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moonshot";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CupcakeCorner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CupcakeCorner";
 			};
 			name = Release;
 		};
-		EDEEA1382CEB15CF00911980 /* Debug */ = {
+		EDF1F2B72CEF1B89003F5DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -523,16 +523,16 @@
 				DEVELOPMENT_TEAM = F45YXDH2VQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MoonshotUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = pallab.maiti.CupcakeCornerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Moonshot;
+				TEST_TARGET_NAME = CupcakeCorner;
 			};
 			name = Debug;
 		};
-		EDEEA1392CEB15CF00911980 /* Release */ = {
+		EDF1F2B82CEF1B89003F5DB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -540,55 +540,55 @@
 				DEVELOPMENT_TEAM = F45YXDH2VQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MoonshotUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = pallab.maiti.CupcakeCornerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Moonshot;
+				TEST_TARGET_NAME = CupcakeCorner;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDEEA1082CEB15CD00911980 /* Build configuration list for PBXProject "Moonshot" */ = {
+		EDF1F2872CEF1B86003F5DB2 /* Build configuration list for PBXProject "CupcakeCorner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDEEA12F2CEB15CF00911980 /* Debug */,
-				EDEEA1302CEB15CF00911980 /* Release */,
+				EDF1F2AE2CEF1B89003F5DB2 /* Debug */,
+				EDF1F2AF2CEF1B89003F5DB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDEEA1312CEB15CF00911980 /* Build configuration list for PBXNativeTarget "Moonshot" */ = {
+		EDF1F2B02CEF1B89003F5DB2 /* Build configuration list for PBXNativeTarget "CupcakeCorner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDEEA1322CEB15CF00911980 /* Debug */,
-				EDEEA1332CEB15CF00911980 /* Release */,
+				EDF1F2B12CEF1B89003F5DB2 /* Debug */,
+				EDF1F2B22CEF1B89003F5DB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDEEA1342CEB15CF00911980 /* Build configuration list for PBXNativeTarget "MoonshotTests" */ = {
+		EDF1F2B32CEF1B89003F5DB2 /* Build configuration list for PBXNativeTarget "CupcakeCornerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDEEA1352CEB15CF00911980 /* Debug */,
-				EDEEA1362CEB15CF00911980 /* Release */,
+				EDF1F2B42CEF1B89003F5DB2 /* Debug */,
+				EDF1F2B52CEF1B89003F5DB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDEEA1372CEB15CF00911980 /* Build configuration list for PBXNativeTarget "MoonshotUITests" */ = {
+		EDF1F2B62CEF1B89003F5DB2 /* Build configuration list for PBXNativeTarget "CupcakeCornerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDEEA1382CEB15CF00911980 /* Debug */,
-				EDEEA1392CEB15CF00911980 /* Release */,
+				EDF1F2B72CEF1B89003F5DB2 /* Debug */,
+				EDF1F2B82CEF1B89003F5DB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EDEEA1052CEB15CD00911980 /* Project object */;
+	rootObject = EDF1F2842CEF1B86003F5DB2 /* Project object */;
 }

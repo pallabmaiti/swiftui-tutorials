@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:FriendFace/FriendFace.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CupcakeCorner/CupcakeCorner.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Moonshot/Moonshot.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MyExpense/MyExpense.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Helpers/Helpers.xcodeproj">
+   </FileRef>
+</Workspace>

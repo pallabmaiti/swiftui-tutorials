@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED66A3B32CEF2A4800C5D059 /* Helpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED66A3B22CEF2A4800C5D059 /* Helpers.framework */; };
-		ED66A3B42CEF2A4800C5D059 /* Helpers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED66A3B22CEF2A4800C5D059 /* Helpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ED66A4922D07094900C5D059 /* Helpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED66A4912D07094900C5D059 /* Helpers.framework */; };
+		ED66A4932D07094900C5D059 /* Helpers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED66A4912D07094900C5D059 /* Helpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EDEEA11E2CEB15CF00911980 /* PBXContainerItemProxy */ = {
+		ED66A4722D06F87B00C5D059 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EDEEA1052CEB15CD00911980 /* Project object */;
+			containerPortal = ED66A4592D06F87900C5D059 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EDEEA10C2CEB15CD00911980;
-			remoteInfo = Moonshot;
+			remoteGlobalIDString = ED66A4602D06F87900C5D059;
+			remoteInfo = FriendFace;
 		};
-		EDEEA1282CEB15CF00911980 /* PBXContainerItemProxy */ = {
+		ED66A47C2D06F87B00C5D059 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EDEEA1052CEB15CD00911980 /* Project object */;
+			containerPortal = ED66A4592D06F87900C5D059 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EDEEA10C2CEB15CD00911980;
-			remoteInfo = Moonshot;
+			remoteGlobalIDString = ED66A4602D06F87900C5D059;
+			remoteInfo = FriendFace;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		ED66A3B52CEF2A4800C5D059 /* Embed Frameworks */ = {
+		ED66A4942D07094900C5D059 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				ED66A3B42CEF2A4800C5D059 /* Helpers.framework in Embed Frameworks */,
+				ED66A4932D07094900C5D059 /* Helpers.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,47 +43,47 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		ED66A3B22CEF2A4800C5D059 /* Helpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Helpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDEEA10D2CEB15CD00911980 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDEEA11D2CEB15CF00911980 /* MoonshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDEEA1272CEB15CF00911980 /* MoonshotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonshotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED66A4612D06F87900C5D059 /* FriendFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED66A4712D06F87B00C5D059 /* FriendFaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendFaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED66A47B2D06F87B00C5D059 /* FriendFaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendFaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED66A4912D07094900C5D059 /* Helpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Helpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EDEEA10F2CEB15CD00911980 /* Moonshot */ = {
+		ED66A4632D06F87900C5D059 /* FriendFace */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Moonshot;
+			path = FriendFace;
 			sourceTree = "<group>";
 		};
-		EDEEA1202CEB15CF00911980 /* MoonshotTests */ = {
+		ED66A4742D06F87B00C5D059 /* FriendFaceTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MoonshotTests;
+			path = FriendFaceTests;
 			sourceTree = "<group>";
 		};
-		EDEEA12A2CEB15CF00911980 /* MoonshotUITests */ = {
+		ED66A47E2D06F87B00C5D059 /* FriendFaceUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MoonshotUITests;
+			path = FriendFaceUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EDEEA10A2CEB15CD00911980 /* Frameworks */ = {
+		ED66A45E2D06F87900C5D059 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED66A3B32CEF2A4800C5D059 /* Helpers.framework in Frameworks */,
+				ED66A4922D07094900C5D059 /* Helpers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDEEA11A2CEB15CF00911980 /* Frameworks */ = {
+		ED66A46E2D06F87B00C5D059 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDEEA1242CEB15CF00911980 /* Frameworks */ = {
+		ED66A4782D06F87B00C5D059 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -93,167 +93,167 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ED66A3B12CEF2A4800C5D059 /* Frameworks */ = {
+		ED66A4582D06F87900C5D059 = {
 			isa = PBXGroup;
 			children = (
-				ED66A3B22CEF2A4800C5D059 /* Helpers.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EDEEA1042CEB15CD00911980 = {
-			isa = PBXGroup;
-			children = (
-				EDEEA10F2CEB15CD00911980 /* Moonshot */,
-				EDEEA1202CEB15CF00911980 /* MoonshotTests */,
-				EDEEA12A2CEB15CF00911980 /* MoonshotUITests */,
-				ED66A3B12CEF2A4800C5D059 /* Frameworks */,
-				EDEEA10E2CEB15CD00911980 /* Products */,
+				ED66A4632D06F87900C5D059 /* FriendFace */,
+				ED66A4742D06F87B00C5D059 /* FriendFaceTests */,
+				ED66A47E2D06F87B00C5D059 /* FriendFaceUITests */,
+				ED66A4902D07094900C5D059 /* Frameworks */,
+				ED66A4622D06F87900C5D059 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EDEEA10E2CEB15CD00911980 /* Products */ = {
+		ED66A4622D06F87900C5D059 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDEEA10D2CEB15CD00911980 /* Moonshot.app */,
-				EDEEA11D2CEB15CF00911980 /* MoonshotTests.xctest */,
-				EDEEA1272CEB15CF00911980 /* MoonshotUITests.xctest */,
+				ED66A4612D06F87900C5D059 /* FriendFace.app */,
+				ED66A4712D06F87B00C5D059 /* FriendFaceTests.xctest */,
+				ED66A47B2D06F87B00C5D059 /* FriendFaceUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		ED66A4902D07094900C5D059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED66A4912D07094900C5D059 /* Helpers.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDEEA10C2CEB15CD00911980 /* Moonshot */ = {
+		ED66A4602D06F87900C5D059 /* FriendFace */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDEEA1312CEB15CF00911980 /* Build configuration list for PBXNativeTarget "Moonshot" */;
+			buildConfigurationList = ED66A4852D06F87B00C5D059 /* Build configuration list for PBXNativeTarget "FriendFace" */;
 			buildPhases = (
-				EDEEA1092CEB15CD00911980 /* Sources */,
-				EDEEA10A2CEB15CD00911980 /* Frameworks */,
-				EDEEA10B2CEB15CD00911980 /* Resources */,
-				ED66A3B52CEF2A4800C5D059 /* Embed Frameworks */,
+				ED66A45D2D06F87900C5D059 /* Sources */,
+				ED66A45E2D06F87900C5D059 /* Frameworks */,
+				ED66A45F2D06F87900C5D059 /* Resources */,
+				ED66A4942D07094900C5D059 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				EDEEA10F2CEB15CD00911980 /* Moonshot */,
+				ED66A4632D06F87900C5D059 /* FriendFace */,
 			);
-			name = Moonshot;
+			name = FriendFace;
 			packageProductDependencies = (
 			);
-			productName = Moonshot;
-			productReference = EDEEA10D2CEB15CD00911980 /* Moonshot.app */;
+			productName = FriendFace;
+			productReference = ED66A4612D06F87900C5D059 /* FriendFace.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EDEEA11C2CEB15CF00911980 /* MoonshotTests */ = {
+		ED66A4702D06F87B00C5D059 /* FriendFaceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDEEA1342CEB15CF00911980 /* Build configuration list for PBXNativeTarget "MoonshotTests" */;
+			buildConfigurationList = ED66A4882D06F87B00C5D059 /* Build configuration list for PBXNativeTarget "FriendFaceTests" */;
 			buildPhases = (
-				EDEEA1192CEB15CF00911980 /* Sources */,
-				EDEEA11A2CEB15CF00911980 /* Frameworks */,
-				EDEEA11B2CEB15CF00911980 /* Resources */,
+				ED66A46D2D06F87B00C5D059 /* Sources */,
+				ED66A46E2D06F87B00C5D059 /* Frameworks */,
+				ED66A46F2D06F87B00C5D059 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EDEEA11F2CEB15CF00911980 /* PBXTargetDependency */,
+				ED66A4732D06F87B00C5D059 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				EDEEA1202CEB15CF00911980 /* MoonshotTests */,
+				ED66A4742D06F87B00C5D059 /* FriendFaceTests */,
 			);
-			name = MoonshotTests;
+			name = FriendFaceTests;
 			packageProductDependencies = (
 			);
-			productName = MoonshotTests;
-			productReference = EDEEA11D2CEB15CF00911980 /* MoonshotTests.xctest */;
+			productName = FriendFaceTests;
+			productReference = ED66A4712D06F87B00C5D059 /* FriendFaceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EDEEA1262CEB15CF00911980 /* MoonshotUITests */ = {
+		ED66A47A2D06F87B00C5D059 /* FriendFaceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDEEA1372CEB15CF00911980 /* Build configuration list for PBXNativeTarget "MoonshotUITests" */;
+			buildConfigurationList = ED66A48B2D06F87B00C5D059 /* Build configuration list for PBXNativeTarget "FriendFaceUITests" */;
 			buildPhases = (
-				EDEEA1232CEB15CF00911980 /* Sources */,
-				EDEEA1242CEB15CF00911980 /* Frameworks */,
-				EDEEA1252CEB15CF00911980 /* Resources */,
+				ED66A4772D06F87B00C5D059 /* Sources */,
+				ED66A4782D06F87B00C5D059 /* Frameworks */,
+				ED66A4792D06F87B00C5D059 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EDEEA1292CEB15CF00911980 /* PBXTargetDependency */,
+				ED66A47D2D06F87B00C5D059 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				EDEEA12A2CEB15CF00911980 /* MoonshotUITests */,
+				ED66A47E2D06F87B00C5D059 /* FriendFaceUITests */,
 			);
-			name = MoonshotUITests;
+			name = FriendFaceUITests;
 			packageProductDependencies = (
 			);
-			productName = MoonshotUITests;
-			productReference = EDEEA1272CEB15CF00911980 /* MoonshotUITests.xctest */;
+			productName = FriendFaceUITests;
+			productReference = ED66A47B2D06F87B00C5D059 /* FriendFaceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EDEEA1052CEB15CD00911980 /* Project object */ = {
+		ED66A4592D06F87900C5D059 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					EDEEA10C2CEB15CD00911980 = {
+					ED66A4602D06F87900C5D059 = {
 						CreatedOnToolsVersion = 16.1;
 					};
-					EDEEA11C2CEB15CF00911980 = {
+					ED66A4702D06F87B00C5D059 = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = EDEEA10C2CEB15CD00911980;
+						TestTargetID = ED66A4602D06F87900C5D059;
 					};
-					EDEEA1262CEB15CF00911980 = {
+					ED66A47A2D06F87B00C5D059 = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = EDEEA10C2CEB15CD00911980;
+						TestTargetID = ED66A4602D06F87900C5D059;
 					};
 				};
 			};
-			buildConfigurationList = EDEEA1082CEB15CD00911980 /* Build configuration list for PBXProject "Moonshot" */;
+			buildConfigurationList = ED66A45C2D06F87900C5D059 /* Build configuration list for PBXProject "FriendFace" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = EDEEA1042CEB15CD00911980;
+			mainGroup = ED66A4582D06F87900C5D059;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = EDEEA10E2CEB15CD00911980 /* Products */;
+			productRefGroup = ED66A4622D06F87900C5D059 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDEEA10C2CEB15CD00911980 /* Moonshot */,
-				EDEEA11C2CEB15CF00911980 /* MoonshotTests */,
-				EDEEA1262CEB15CF00911980 /* MoonshotUITests */,
+				ED66A4602D06F87900C5D059 /* FriendFace */,
+				ED66A4702D06F87B00C5D059 /* FriendFaceTests */,
+				ED66A47A2D06F87B00C5D059 /* FriendFaceUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EDEEA10B2CEB15CD00911980 /* Resources */ = {
+		ED66A45F2D06F87900C5D059 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDEEA11B2CEB15CF00911980 /* Resources */ = {
+		ED66A46F2D06F87B00C5D059 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDEEA1252CEB15CF00911980 /* Resources */ = {
+		ED66A4792D06F87B00C5D059 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,21 +263,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EDEEA1092CEB15CD00911980 /* Sources */ = {
+		ED66A45D2D06F87900C5D059 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDEEA1192CEB15CF00911980 /* Sources */ = {
+		ED66A46D2D06F87B00C5D059 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDEEA1232CEB15CF00911980 /* Sources */ = {
+		ED66A4772D06F87B00C5D059 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,20 +287,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EDEEA11F2CEB15CF00911980 /* PBXTargetDependency */ = {
+		ED66A4732D06F87B00C5D059 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EDEEA10C2CEB15CD00911980 /* Moonshot */;
-			targetProxy = EDEEA11E2CEB15CF00911980 /* PBXContainerItemProxy */;
+			target = ED66A4602D06F87900C5D059 /* FriendFace */;
+			targetProxy = ED66A4722D06F87B00C5D059 /* PBXContainerItemProxy */;
 		};
-		EDEEA1292CEB15CF00911980 /* PBXTargetDependency */ = {
+		ED66A47D2D06F87B00C5D059 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EDEEA10C2CEB15CD00911980 /* Moonshot */;
-			targetProxy = EDEEA1282CEB15CF00911980 /* PBXContainerItemProxy */;
+			target = ED66A4602D06F87900C5D059 /* FriendFace */;
+			targetProxy = ED66A47C2D06F87B00C5D059 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		EDEEA12F2CEB15CF00911980 /* Debug */ = {
+		ED66A4832D06F87B00C5D059 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,7 +363,7 @@
 			};
 			name = Debug;
 		};
-		EDEEA1302CEB15CF00911980 /* Release */ = {
+		ED66A4842D06F87B00C5D059 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -419,14 +419,14 @@
 			};
 			name = Release;
 		};
-		EDEEA1322CEB15CF00911980 /* Debug */ = {
+		ED66A4862D06F87B00C5D059 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Moonshot/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FriendFace/Preview Content\"";
 				DEVELOPMENT_TEAM = F45YXDH2VQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -440,7 +440,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Moonshot;
+				PRODUCT_BUNDLE_IDENTIFIER = pallab.maiti.FriendFace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -448,14 +448,14 @@
 			};
 			name = Debug;
 		};
-		EDEEA1332CEB15CF00911980 /* Release */ = {
+		ED66A4872D06F87B00C5D059 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Moonshot/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FriendFace/Preview Content\"";
 				DEVELOPMENT_TEAM = F45YXDH2VQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -469,7 +469,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Moonshot;
+				PRODUCT_BUNDLE_IDENTIFIER = pallab.maiti.FriendFace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -477,7 +477,7 @@
 			};
 			name = Release;
 		};
-		EDEEA1352CEB15CF00911980 /* Debug */ = {
+		ED66A4892D06F87B00C5D059 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,16 +487,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MoonshotTests;
+				PRODUCT_BUNDLE_IDENTIFIER = pallab.maiti.FriendFaceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moonshot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moonshot";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendFace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FriendFace";
 			};
 			name = Debug;
 		};
-		EDEEA1362CEB15CF00911980 /* Release */ = {
+		ED66A48A2D06F87B00C5D059 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,16 +506,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MoonshotTests;
+				PRODUCT_BUNDLE_IDENTIFIER = pallab.maiti.FriendFaceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moonshot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moonshot";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendFace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FriendFace";
 			};
 			name = Release;
 		};
-		EDEEA1382CEB15CF00911980 /* Debug */ = {
+		ED66A48C2D06F87B00C5D059 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -523,16 +523,16 @@
 				DEVELOPMENT_TEAM = F45YXDH2VQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MoonshotUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = pallab.maiti.FriendFaceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Moonshot;
+				TEST_TARGET_NAME = FriendFace;
 			};
 			name = Debug;
 		};
-		EDEEA1392CEB15CF00911980 /* Release */ = {
+		ED66A48D2D06F87B00C5D059 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -540,55 +540,55 @@
 				DEVELOPMENT_TEAM = F45YXDH2VQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MoonshotUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = pallab.maiti.FriendFaceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Moonshot;
+				TEST_TARGET_NAME = FriendFace;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDEEA1082CEB15CD00911980 /* Build configuration list for PBXProject "Moonshot" */ = {
+		ED66A45C2D06F87900C5D059 /* Build configuration list for PBXProject "FriendFace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDEEA12F2CEB15CF00911980 /* Debug */,
-				EDEEA1302CEB15CF00911980 /* Release */,
+				ED66A4832D06F87B00C5D059 /* Debug */,
+				ED66A4842D06F87B00C5D059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDEEA1312CEB15CF00911980 /* Build configuration list for PBXNativeTarget "Moonshot" */ = {
+		ED66A4852D06F87B00C5D059 /* Build configuration list for PBXNativeTarget "FriendFace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDEEA1322CEB15CF00911980 /* Debug */,
-				EDEEA1332CEB15CF00911980 /* Release */,
+				ED66A4862D06F87B00C5D059 /* Debug */,
+				ED66A4872D06F87B00C5D059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDEEA1342CEB15CF00911980 /* Build configuration list for PBXNativeTarget "MoonshotTests" */ = {
+		ED66A4882D06F87B00C5D059 /* Build configuration list for PBXNativeTarget "FriendFaceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDEEA1352CEB15CF00911980 /* Debug */,
-				EDEEA1362CEB15CF00911980 /* Release */,
+				ED66A4892D06F87B00C5D059 /* Debug */,
+				ED66A48A2D06F87B00C5D059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDEEA1372CEB15CF00911980 /* Build configuration list for PBXNativeTarget "MoonshotUITests" */ = {
+		ED66A48B2D06F87B00C5D059 /* Build configuration list for PBXNativeTarget "FriendFaceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDEEA1382CEB15CF00911980 /* Debug */,
-				EDEEA1392CEB15CF00911980 /* Release */,
+				ED66A48C2D06F87B00C5D059 /* Debug */,
+				ED66A48D2D06F87B00C5D059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EDEEA1052CEB15CD00911980 /* Project object */;
+	rootObject = ED66A4592D06F87900C5D059 /* Project object */;
 }

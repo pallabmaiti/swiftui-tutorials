@@ -1,6 +1,6 @@
 //
 //  Bundle-Decodable.swift
-//  Moonshot
+//  Helpers
 //
 //  Created by Pallab Maiti on 18/11/24.
 //
@@ -22,6 +22,26 @@ extension Bundle {
             dateFormatter.dateFormat = "yyyy-MM-dd"
             decoder.dateDecodingStrategy = .formatted(dateFormatter)
             return try decoder.decode(T.self, from: data)
+        } catch DecodingError.keyNotFound(let key, let context) {
+            fatalError("Key \(key) not found in \(context.debugDescription)")
+        } catch DecodingError.valueNotFound(let type, let context) {
+            fatalError("Value of type \(type) not found in \(context.debugDescription)")
+        } catch DecodingError.typeMismatch(let type, let context) {
+            fatalError("Type mismatch for \(type) in \(context.debugDescription)")
+        } catch DecodingError.dataCorrupted(let context) {
+            fatalError("Data corrupted in \(context.debugDescription)")
+        } catch {
+            fatalError("Unknown error: \(error)")
+        }
+    }
+}
+
+extension Data {
+    public func decode<T: Decodable>() -> T {
+        do {
+            let decoder = JSONDecoder()
+            decoder.dateDecodingStrategy = .iso8601
+            return try decoder.decode(T.self, from: self)
         } catch DecodingError.keyNotFound(let key, let context) {
             fatalError("Key \(key) not found in \(context.debugDescription)")
         } catch DecodingError.valueNotFound(let type, let context) {
